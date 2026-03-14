@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash books/.claude/hooks/auto-toc.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
